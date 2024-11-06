@@ -26,6 +26,4 @@ This is a PyTorch implementation of a Faster R-CNN model for classifying captcha
    - Modify the `json_file` and `image_dir` arguments in the command below to point to your dataset.
 
 2. Train the model :
- python
- ``python train_frcnn.py --json_file <path_to_coco_annotations.json> --image_dir <path_to_images_dir> --num_classes <number_of_classes> --output_dir <path_to_output_dir>
-``
+ ``python train_frcnn.py --json_file <path_to_coco_annotations.json> --image_dir <path_to_images_dir> --num_classes <number_of_classes> --output_dir <path_to_output_dir>``
