@@ -1,6 +1,6 @@
 # Faster R-CNN Captcha Classifier
 
-This is a PyTorch implementation of a Faster R-CNN model for classifying captcha images. The script can be used to train and evaluate the model on a custom COCO-formatted dataset.
+This is a PyTorch implementation of a Faster R-CNN model for classifying any images. The script can be used to train and evaluate the model on a custom COCO-formatted dataset.
 
 ## Features
 - Loads and preprocesses a COCO-formatted dataset for object detection
@@ -26,7 +26,7 @@ This is a PyTorch implementation of a Faster R-CNN model for classifying captcha
    - Modify the `json_file` and `image_dir` arguments in the command below to point to your dataset.
 
 2. Train the model :
- ``python train_frcnn.py --json_file <path_to_coco_annotations.json> --image_dir <path_to_images_dir> --num_classes <number_of_classes> --output_dir <path_to_output_dir>``
+ ``python main.py --json_file <path_to_coco_annotations.json> --image_dir <path_to_images_dir> --num_classes <number_of_classes> --output_dir <path_to_output_dir>``
 - `--json_file`: Path to the COCO format annotation file.
 - `--image_dir`: Directory containing the images.
 - `--num_classes`: Number of classes including the background class.
