@@ -1,4 +1,4 @@
-# Faster R-CNN Captcha Classifier
+# Faster R-CNN Images Classifier
 
 This is a PyTorch implementation of a Faster R-CNN model for classifying any images. The script can be used to train and evaluate the model on a custom COCO-formatted dataset.
 
